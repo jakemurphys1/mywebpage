@@ -1,0 +1,336 @@
+
+// Bootstrap Variables
+$icon-font-path: '../../node_modules/bootstrap-sass/assets/fonts/bootstrap/';
+
+// Import Bootstrap
+@import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+body{
+  background-image : url("../images/River.jpg");
+background-size: cover;
+}
+
+.header{
+  opacity: .9;
+  h1{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 60px;
+    text-shadow: 3px 3px #111111;
+  }
+  h2{
+        text-align: center;
+          text-shadow: 2px 2px #111111;
+  }
+  background-color:rgb(73, 153, 203);
+  height:200px;
+  margin-top:50px;
+}
+
+.main{
+    font-size: 30px;
+}
+
+.tabs{
+  background-color: white;
+  border-bottom: black solid 0px;
+  opacity: .9;
+  a{
+      color:black;
+  }
+li{
+  margin:0 auto;
+  display: block;
+}
+}
+.totalfooter{
+    margin-top: 600px;
+}
+.footer{
+  padding-top: 40px;
+  padding-bottom:60px;
+
+  text-align: center;
+  background-color:rgb(73, 153, 203);
+}
+
+.image{
+  margin-top: 20px;
+  height:220px;
+  img{
+    margin-left: 30px;
+    margin-top: -20px;
+border:black solid 6px;
+width:200px;
+  }
+  @media screen and (max-width: 1000px){
+    img {
+        display: block;
+        margin: 0 auto;
+    }
+      };
+}
+
+#details{
+    opacity: .9;
+  h1,h2{
+    text-align: center;
+  }
+
+  p{
+    padding-left:40px;
+    padding-right:40px;
+  }
+  btn{
+    text-size:40px;
+  }
+  .playButton{
+    display: inline-block;
+    margin:0 auto;
+  }
+  background-color: white;
+}
+
+.skills{
+  p{
+    font-size: 20px;
+  }
+  img{
+    display: inline-block;
+
+
+    width: auto;
+  }
+  .topskill{
+    img{
+      margin-left:40%;
+        height:120px;
+    }
+  }
+  #backbone{
+    margin-top: 0px;
+  }
+  #bootstrap{
+    margin-top: 40px;
+  }
+  #parse{
+    margin-top: -15px;
+
+    img{
+      height:125px;
+
+    }
+  }
+  #jquery{
+      margin-top: 40px;
+      margin-left: 40px;
+    img{
+      height:100px;
+    }
+  }
+  #handlebars{
+    margin-top: -40px;
+      margin-left: 40px;
+    img{
+        height:250px;
+    }
+  }
+  #react{
+    margin-top: 0px;
+    img{
+      height:150px;
+    }
+  }
+}
+
+.sirch{
+  p{
+    color:white;
+    float:right;
+    margin-right: 20px;
+  }
+  a{
+    color:white;
+    text-decoration: none;
+  }
+}
+
+.education{
+  a{
+    color:black;
+  }
+  img{
+
+    width:40px;
+    height: auto;
+    display: inline-block;
+    margin: 0 auto;
+  }
+}
+
+.sprites{
+  .incomingpics{
+    width:200px;
+    margin: 0 auto;
+  }
+  img{
+width:50px;
+height: auto;
+margin-left: 10px;
+  }
+}
+.wires{
+  height:50px;
+  .wirepics{
+    width:200px;
+    margin: 0 auto;
+  }
+  img{
+width:50px;
+height: 50px;
+  }
+}
+
+#wiresLogo{
+  border:black solid 3px;
+}
+
+h1{
+      text-shadow: 1px 1px #111111;
+}
+
+.center{
+  border:black solid 5px;
+  border-radius:5px;
+  background-color: rgb(73, 153, 203);
+  width:500px;
+  height:500px;
+  display: block;
+  margin: 100px auto;
+
+  @media screen and (max-width: 992px){
+    width:300px;
+    height:400px;
+      };
+h1{
+  text-align: center;
+  font-size: 60px;
+  @media screen and (max-width: 992px){
+  font-size: 30px;
+      };
+}
+h2{
+  text-align: center;
+  @media screen and (max-width: 992px){
+    margin-top: -40px;
+  font-size: 20px;
+      };
+}
+  .img1{
+        margin-top: 18px;
+      width:70px;
+        height:70px;
+        opacity: 0;
+        @media screen and (max-width: 992px){
+        visibility: hidden;
+            };
+  }
+  .img2{
+    width:100px;
+    height:50px;
+    margin-top: 49px;
+    opacity: 0;
+        @media screen and (max-width: 992px){
+        visibility: hidden;
+            };
+  }
+  #img4{
+    margin-top:20px;
+  }
+  #img6{
+    margin-top: 15px;
+  }
+  #img7{
+    margin-top:15px;
+  }
+  .img3{
+    width:400px;
+      height:300px;
+      @media screen and (max-width: 992px){
+        margin-left:50px;
+        margin-top: -350px;
+        width:200px;
+          height:250px;
+          };
+  }
+  #img10{
+    opacity: 0;
+  }
+  .img4{
+    width:100px;
+      height:110px;
+        margin-top: -10px;
+        display: block;
+            opacity: 0;
+        @media screen and (max-width: 992px){
+        visibility: hidden;
+            };
+  }
+  .left{
+      margin-top: -15px;
+    img{
+      margin-left: 25px;
+    }
+  }
+  .right{
+    margin-top: -40px;
+    img{
+      float:right;
+      margin-right: 25px;
+    }
+  }
+  #img9{
+    margin-top: -20px;
+  }
+}
+
+.github{
+    height:40px;
+    width:40px;
+      margin-top: -10px;
+}
+.linkedin{
+  height:40px;
+  width:120px;
+  margin-top: -15px;
+}
+
+.resumeContainer{
+  width:300px;
+  margin:0 auto;
+}
+
+.sideimage{
+  img{
+    display: block;
+    margin: 0 auto;
+    width:80%;
+    height: auto;
+  }
+}
+.techs{
+  p{
+    font-size: 30px;
+  }
+}
