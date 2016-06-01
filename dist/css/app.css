@@ -5884,37 +5884,6 @@ body {
     display: inline-block;
     margin: 0 auto; }
 
-.skills p {
-  font-size: 20px; }
-.skills img {
-  display: inline-block;
-  width: auto; }
-.skills .topskill img {
-  margin-left: 40%;
-  height: 120px; }
-.skills #backbone {
-  margin-top: 0px; }
-.skills #bootstrap {
-  margin-top: 40px; }
-.skills #parse {
-  margin-top: -15px; }
-  .skills #parse img {
-    height: 125px; }
-.skills #jquery {
-  margin-top: 40px;
-  margin-left: 40px; }
-  .skills #jquery img {
-    height: 100px; }
-.skills #handlebars {
-  margin-top: -40px;
-  margin-left: 40px; }
-  .skills #handlebars img {
-    height: 250px; }
-.skills #react {
-  margin-top: 0px; }
-  .skills #react img {
-    height: 150px; }
-
 .sirch p {
   color: white;
   float: right;
@@ -5922,14 +5891,6 @@ body {
 .sirch a {
   color: white;
   text-decoration: none; }
-
-.education a {
-  color: black; }
-.education img {
-  width: 40px;
-  height: auto;
-  display: inline-block;
-  margin: 0 auto; }
 
 .sprites .incomingpics {
   width: 200px;
@@ -6054,5 +6015,64 @@ h1 {
 
 .techs p {
   font-size: 30px; }
+
+.mainInfo h1 {
+  text-align: center; }
+.mainInfo p {
+  margin-left: 20px; }
+.mainInfo .education a {
+  color: black; }
+.mainInfo .education img {
+  width: 40px;
+  height: auto;
+  display: inline-block;
+  margin: 0 auto; }
+.mainInfo .skills p {
+  font-size: 20px; }
+.mainInfo .skills .topskill img {
+  width: 10%;
+  display: inline-block;
+  margin-left: 20%; }
+.mainInfo .skills .topskill #html {
+  margin-left: 100px; }
+.mainInfo .skills .middleskill img {
+  width: 20%;
+  display: inline-block;
+  margin-left: 7%; }
+.mainInfo .skills .middleskill #bootstrap {
+  margin-top: 40px; }
+.mainInfo .skills .middleskill #jquery {
+  margin-top: 40px;
+  margin-left: 40px; }
+.mainInfo .skills .middleskill #handlebars {
+  margin-top: -40px; }
+.mainInfo .skills .lowerskill img {
+  width: 25%;
+  display: inline-block;
+  margin-left: 5%; }
+.mainInfo .skills .lowerskill #backbone {
+  margin-top: 0px; }
+.mainInfo .skills .lowerskill #parse {
+  margin-top: -30px; }
+.mainInfo .skills .lowerskill #react {
+  margin-top: 20px;
+  margin-left: 20px; }
+
+.project {
+  margin-bottom: 20px; }
+  .project h1 {
+    text-align: center; }
+
+.contact .headshot img {
+  display: block;
+  margin: 0 auto;
+  border: black solid 6px;
+  height: 300px; }
+.contact .ContactInfo {
+  display: block;
+  margin: 0 auto; }
+
+.ContactInfo h2 {
+  margin-left: 30px; }
 
 /*# sourceMappingURL=app.css.map */

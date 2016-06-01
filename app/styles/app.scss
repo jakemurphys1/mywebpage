@@ -102,57 +102,7 @@ width:200px;
   background-color: white;
 }
 
-.skills{
-  p{
-    font-size: 20px;
-  }
-  img{
-    display: inline-block;
 
-
-    width: auto;
-  }
-  .topskill{
-    img{
-      margin-left:40%;
-        height:120px;
-    }
-  }
-  #backbone{
-    margin-top: 0px;
-  }
-  #bootstrap{
-    margin-top: 40px;
-  }
-  #parse{
-    margin-top: -15px;
-
-    img{
-      height:125px;
-
-    }
-  }
-  #jquery{
-      margin-top: 40px;
-      margin-left: 40px;
-    img{
-      height:100px;
-    }
-  }
-  #handlebars{
-    margin-top: -40px;
-      margin-left: 40px;
-    img{
-        height:250px;
-    }
-  }
-  #react{
-    margin-top: 0px;
-    img{
-      height:150px;
-    }
-  }
-}
 
 .sirch{
   p{
@@ -166,18 +116,7 @@ width:200px;
   }
 }
 
-.education{
-  a{
-    color:black;
-  }
-  img{
 
-    width:40px;
-    height: auto;
-    display: inline-block;
-    margin: 0 auto;
-  }
-}
 
 .sprites{
   .incomingpics{
@@ -333,4 +272,103 @@ h2{
   p{
     font-size: 30px;
   }
+}
+
+.mainInfo{
+  h1{
+    text-align: center;
+  }
+  p{
+    margin-left: 20px;
+  }
+  .education{
+    a{
+      color:black;
+    }
+    img{
+
+      width:40px;
+      height: auto;
+      display: inline-block;
+      margin: 0 auto;
+    }
+  }
+  .skills{
+    p{
+      font-size: 20px;
+    }
+    .topskill{
+      img{
+          width:10%;
+          display:inline-block;
+              margin-left:20%;
+      }
+      #html{
+        margin-left: 100px;
+      }
+    }
+    .middleskill{
+      img{
+          width:20%;
+          display:inline-block;
+              margin-left:7%;
+      }
+      #bootstrap{
+        margin-top: 40px;
+      }
+      #jquery{
+          margin-top: 40px;
+          margin-left: 40px;
+      }
+      #handlebars{
+        margin-top: -40px;
+      }
+    }
+    .lowerskill{
+      img{
+          width:25%;
+          display:inline-block;
+              margin-left:5%;
+      }
+      #backbone{
+        margin-top: 0px;
+      }
+      #parse{
+        margin-top: -30px;
+      }
+      #react{
+        margin-top: 20px;
+                  margin-left: 20px;
+      }
+    }
+
+  }
+}
+
+.project{
+  h1{
+    text-align: center;
+  }
+  margin-bottom: 20px;
+}
+
+.contact{
+  .headshot{
+    img{
+      display: block;
+      margin: 0 auto;
+      border:black solid 6px;
+      height:300px;
+    }
+  }
+  .ContactInfo{
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+.ContactInfo{
+h2{
+  margin-left: 30px;
+}
 }

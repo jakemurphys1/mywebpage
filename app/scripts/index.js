@@ -8,21 +8,7 @@ var ButtonInput= require("react-bootstrap/lib/ButtonInput")
 var MainForm=require("./components/main.jsx")
 var AboutForm=MainForm.About;
 var ProjectsForm=MainForm.Projects;
-var GamesForm=MainForm.Games;
-
-var BackgroundForm=require("./components/background.jsx")
-var EducationForm=require("./components/education.jsx")
-var SkillsForm=require("./components/skills.jsx")
-var ContactForm=require("./components/contact.jsx")
-var ResumeForm=require("./components/resume.jsx")
-
-var GaminglocalForm=require("./components/gaminglocal.jsx")
-var MajesticthaiForm=require("./components/majesticthai.jsx")
-var BatchMakerForm=require("./components/batchmaker.jsx")
-
-var IncomingForm=require("./components/incoming.jsx")
-var WiresForm=require("./components/wires.jsx")
-var ChachingForm=require("./components/chaching.jsx")
+var ContactForm=MainForm.Contact;
 
 var picCount=0;
 setInterval(function(){
@@ -131,10 +117,10 @@ var Router = Backbone.Router.extend({
       ReactDOM.unmountComponentAtNode(detailContainer);
     ReactDOM.render(<ProjectsForm router={this}/>,homeContainer)
   },
-  games:function(){
+  contact:function(){
     ReactDOM.unmountComponentAtNode(homeContainer);
       ReactDOM.unmountComponentAtNode(detailContainer);
-    ReactDOM.render(<GamesForm router={this}/>,homeContainer)
+    ReactDOM.render(<ContactForm router={this}/>,homeContainer)
   },
   background:function(){
     ReactDOM.unmountComponentAtNode(detailContainer);
@@ -147,10 +133,6 @@ var Router = Backbone.Router.extend({
   skills:function(){
     ReactDOM.unmountComponentAtNode(detailContainer);
     ReactDOM.render(<SkillsForm router={this}/>,detailContainer)
-  },
-  contact:function(){
-    ReactDOM.unmountComponentAtNode(detailContainer);
-    ReactDOM.render(<ContactForm router={this}/>,detailContainer)
   },
   resume:function(){
     ReactDOM.unmountComponentAtNode(detailContainer);
